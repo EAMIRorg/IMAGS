@@ -852,7 +852,7 @@
 					"patching_rect" : [ 305.5, 565.000000000000114, 90.75, 82.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 644.034384187499882, 10.706534000000005, 138.0, 46.0 ],
+					"presentation_rect" : [ 644.034384187499882, 11.706534000000005, 138.0, 46.0 ],
 					"text" : "Replay Last Data Capture",
 					"textcolor" : [ 0.0, 0.667, 0.89, 1.0 ],
 					"textjustification" : 1
