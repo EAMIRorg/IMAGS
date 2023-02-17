@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 82.0, 134.0, 1232.0, 601.0 ],
+		"rect" : [ 82.0, 134.0, 1113.0, 520.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -2570,7 +2570,7 @@
 					"bgfillcolor_type" : "gradient",
 					"fontsize" : 14.0,
 					"id" : "obj-106",
-					"items" : [ "IMAGS_2022-11-18_1-59-34-PM.txt", ",", "IMAGS_2022-11-18_1-59-36-PM.txt", ",", "IMAGS_2022-11-18_1-59-50-PM.txt", ",", "IMAGS_2022-11-18_12-45-15-AM.txt", ",", "IMAGS_2022-11-18_12-51-16-AM.txt", ",", "IMAGS_2023-2-15_4-57-39-PM.txt", ",", "IMAGS_2023-2-15_5-7-31-PM.txt", ",", "IMAGS_2023-2-16_5-50-22-PM.txt", ",", "IMAGS_2023-2-16_5-53-21-PM.txt", ",", "IMAGS_2023-2-16_5-56-2-PM.txt" ],
+					"items" : [ "/Users/VJ/Documents/GitHub/IMAGS/patchers/data/", ",", "IMAGS_2022-11-18_1-59-34-PM.txt", ",", "IMAGS_2022-11-18_1-59-36-PM.txt", ",", "IMAGS_2022-11-18_1-59-50-PM.txt", ",", "IMAGS_2022-11-18_12-45-15-AM.txt", ",", "IMAGS_2022-11-18_12-51-16-AM.txt", ",", "IMAGS_2023-2-15_4-57-39-PM.txt", ",", "IMAGS_2023-2-15_5-7-31-PM.txt", ",", "IMAGS_2023-2-16_5-50-22-PM.txt", ",", "IMAGS_2023-2-16_5-53-21-PM.txt", ",", "IMAGS_2023-2-16_5-56-2-PM.txt" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
