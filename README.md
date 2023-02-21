@@ -12,5 +12,5 @@ Additionally, IMAGS seeks to provide a mobile peer support system that promotes 
 
 For more info, contact: gr-IMAGS@wpi.edu
 
-
-
+Created by V.J. Manzo and Ava Mattimore<br>
+http://vjlabs.org 
