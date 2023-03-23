@@ -261,18 +261,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-51",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 750.0, 281.0, 47.0, 22.0 ],
-					"text" : "clocker"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-19",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -2802,7 +2790,7 @@
 					"bgfillcolor_type" : "gradient",
 					"fontsize" : 14.0,
 					"id" : "obj-106",
-					"items" : [ "/Users/VJ/Documents/GitHub/IMAGS/patchers/data/", ",", "IMAGS_2022-11-18_1-59-34-PM.txt", ",", "IMAGS_2022-11-18_1-59-36-PM.txt", ",", "IMAGS_2022-11-18_1-59-50-PM.txt", ",", "IMAGS_2022-11-18_12-45-15-AM.txt", ",", "IMAGS_2022-11-18_12-51-16-AM.txt", ",", "IMAGS_2023-2-15_4-57-39-PM.txt", ",", "IMAGS_2023-2-15_5-7-31-PM.txt", ",", "IMAGS_2023-2-16_5-50-22-PM.txt", ",", "IMAGS_2023-2-16_5-53-21-PM.txt", ",", "IMAGS_2023-2-16_5-56-2-PM.txt", ",", "IMAGS_2023-2-17_10-10-18-AM.txt" ],
+					"items" : [ "IMAGS_2022-11-18_1-59-34-PM.txt", ",", "IMAGS_2022-11-18_1-59-36-PM.txt", ",", "IMAGS_2022-11-18_1-59-50-PM.txt", ",", "IMAGS_2022-11-18_12-45-15-AM.txt", ",", "IMAGS_2022-11-18_12-51-16-AM.txt", ",", "IMAGS_2023-2-15_4-57-39-PM.txt", ",", "IMAGS_2023-2-15_5-7-31-PM.txt", ",", "IMAGS_2023-2-16_5-50-22-PM.txt", ",", "IMAGS_2023-2-16_5-53-21-PM.txt", ",", "IMAGS_2023-2-16_5-56-2-PM.txt", ",", "IMAGS_2023-2-17_10-10-18-AM.txt", ",", "IMAGS_2023-3-3_10-32-38-AM.txt" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3865,6 +3853,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
+					"midpoints" : [ 726.5, 776.151612000000114, 739.5, 776.151612000000114 ],
 					"source" : [ "obj-15", 1 ]
 				}
 
