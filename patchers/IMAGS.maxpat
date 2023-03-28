@@ -41,6 +41,44 @@
 		"title" : "IMAGS",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.301961, 0.301961, 0.301961, 0.0 ],
+					"bgcolor2" : [ 0.301961, 0.301961, 0.301961, 0.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 0.0 ],
+					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "color",
+					"gradient" : 1,
+					"id" : "obj-52",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 264.0, 1389.0, 260.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 5.804891999999882, 113.0, 1090.0, 22.0 ],
+					"text" : "0 2 58 180",
+					"textcolor" : [ 0.819607843137255, 0.819607843137255, 0.819607843137255, 1.0 ],
+					"textjustification" : 2
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-36",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 846.0, 1080.0, 71.0, 22.0 ],
+					"text" : "fromsymbol"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-96",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -2790,7 +2828,7 @@
 					"bgfillcolor_type" : "gradient",
 					"fontsize" : 14.0,
 					"id" : "obj-106",
-					"items" : [ "IMAGS_2022-11-18_1-59-34-PM.txt", ",", "IMAGS_2022-11-18_1-59-36-PM.txt", ",", "IMAGS_2022-11-18_1-59-50-PM.txt", ",", "IMAGS_2022-11-18_12-45-15-AM.txt", ",", "IMAGS_2022-11-18_12-51-16-AM.txt", ",", "IMAGS_2023-2-15_4-57-39-PM.txt", ",", "IMAGS_2023-2-15_5-7-31-PM.txt", ",", "IMAGS_2023-2-16_5-50-22-PM.txt", ",", "IMAGS_2023-2-16_5-53-21-PM.txt", ",", "IMAGS_2023-2-16_5-56-2-PM.txt", ",", "IMAGS_2023-2-17_10-10-18-AM.txt", ",", "IMAGS_2023-3-3_10-32-38-AM.txt" ],
+					"items" : [ "IMAGS_2022-11-18_1-59-34-PM.txt", ",", "IMAGS_2022-11-18_1-59-36-PM.txt", ",", "IMAGS_2022-11-18_1-59-50-PM.txt", ",", "IMAGS_2022-11-18_12-45-15-AM.txt", ",", "IMAGS_2022-11-18_12-51-16-AM.txt", ",", "IMAGS_2023-2-15_4-57-39-PM.txt", ",", "IMAGS_2023-2-15_5-7-31-PM.txt", ",", "IMAGS_2023-2-16_5-50-22-PM.txt", ",", "IMAGS_2023-2-16_5-53-21-PM.txt", ",", "IMAGS_2023-2-16_5-56-2-PM.txt", ",", "IMAGS_2023-2-17_10-10-18-AM.txt", ",", "IMAGS_2023-3-24_10-38-56-AM.txt", ",", "IMAGS_2023-3-3_10-32-38-AM.txt" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4146,6 +4184,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-52", 1 ],
+					"midpoints" : [ 855.5, 1143.0, 514.5, 1143.0 ],
+					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
 					"source" : [ "obj-37", 0 ]
 				}
@@ -4604,6 +4650,16 @@
 				"patchline" : 				{
 					"destination" : [ "obj-16", 2 ],
 					"midpoints" : [ 817.431640625, 857.575806000000057, 787.5, 857.575806000000057 ],
+					"order" : 1,
+					"source" : [ "obj-96", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"midpoints" : [ 817.431640625, 956.0, 855.5, 956.0 ],
+					"order" : 0,
 					"source" : [ "obj-96", 0 ]
 				}
 
